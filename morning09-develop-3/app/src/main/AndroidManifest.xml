@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.tugraz.ist.swe.lang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Len da Langwidge"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".legalActivity" />
+        <activity android:name=".Legal" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".TranslationActivity" />
+        <activity android:name=".AddWordsActivity" />
+        <activity android:name=".SimpleTestActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".CategorizationActivity" />
+        <activity android:name=".TestsActivity" />
+        <activity android:name=".CreateTestActivity" />
+        <activity android:name=".TakeTestActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
